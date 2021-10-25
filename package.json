@@ -23,6 +23,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.1",
     "browserslist": "^4.17.5",
     "simplelightbox": "^2.9.0"
   }
