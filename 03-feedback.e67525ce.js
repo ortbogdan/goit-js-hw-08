@@ -4,4 +4,4 @@ var t=arguments[3],n="Expected a function",e=NaN,i="[object Symbol]",r=/^\s+|\s+
 },{}],"TTyb":[function(require,module,exports) {
 "use strict";var e=t(require("lodash.throttle"));function t(e){return e&&e.__esModule?e:{default:e}}const a=document.querySelector(".feedback-form"),r=document.querySelector('input[name="email"]'),o=document.querySelector('textarea[name="message"]'),n="feedback-form-state",l={};function u(e){l[e.target.name]=e.target.value.trim(),localStorage.setItem(n,JSON.stringify(l))}function c(e){e.preventDefault(),console.log(JSON.parse(localStorage.getItem(n))),e.currentTarget.reset(),localStorage.removeItem(n)}function s(){const e=localStorage.getItem(n);if(e){const{email:t,message:a}=JSON.parse(e);o.value=a,r.value=t}}a.addEventListener("submit",c),a.addEventListener("input",(0,e.default)(u,500)),s();
 },{"lodash.throttle":"FNyO"}]},{},["TTyb"], null)
-//# sourceMappingURL=/goit-js-hw-08/03-feedback.e67525ce.js.map
+//# sourceMappingURL=https://github.com/ortbogdan/goit-js-hw-08/03-feedback.e67525ce.js.map
